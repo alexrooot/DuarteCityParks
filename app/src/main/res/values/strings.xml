@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DuarteCityParks</string>
+    <string name="Hacienda_Park_Name">Hacienda Park</string>
+    <string name="Hacienda_Park_Benefits">Picnic and barbecue area
+        Playground equipment</string>
+    <string name="Hacienda_Park_Address">2695 Hacienda Drive
+Duarte, CA 91010</string>
+</resources>

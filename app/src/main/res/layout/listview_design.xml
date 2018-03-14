@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title_of_park"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:textStyle="italic"
+            android:textSize="32sp"
+            android:text="Name of park"/>
+        <TextView
+            android:id="@+id/park_benefits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_of_park"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:textStyle="italic"
+            android:textSize="22sp"
+            android:text="Kids play area"
+            />
+        <TextView
+            android:id="@+id/park_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/park_benefits"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:textStyle="italic"
+            android:textSize="22sp"
+            android:text="111 Hacienda Park"
+            />
+        <ImageView
+            android:id="@+id/parkImageView"
+            android:src="@drawable/hacienda_park"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</ScrollView>
