@@ -17,7 +17,7 @@ import java.util.ArrayList;
 
 public class CityParksF extends Fragment{
     public static final String ARG_PAGE = "Duarte Parks";
-    private int mPage = 1;
+    private int mPage = 0;
     public CityParksF(){
         // Required empty public constructor
     }
