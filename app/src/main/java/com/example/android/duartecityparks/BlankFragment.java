@@ -1,26 +1,26 @@
 package com.example.android.duartecityparks;
 
-import android.support.v4.app.Fragment;
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
-import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
- * Created by Alex on 3/1/2018.
+ * A simple {@link Fragment} subclass.
  */
+public class BlankFragment extends Fragment {
+    public static final String ARG_PAGE = "Repeat Parks";
 
-public class CityParksF extends Fragment{
-    public static final String ARG_PAGE = "Duarte Parks";
-    private int mPage = 1;
-    public CityParksF(){
+    public BlankFragment() {
         // Required empty public constructor
     }
+
 
     @Nullable
     @Override
@@ -32,10 +32,7 @@ public class CityParksF extends Fragment{
                 getString(R.string.Hacienda_Park_Name),
                 getString(R.string.Hacienda_Park_Benefits),
                 getString(R.string.Hacienda_Park_Address)));
-
-        ParksDataListViewAdapter Adapter = new ParksDataListViewAdapter(getActivity(), parkInfo);
-        ListView listView = (ListView) rootList.findViewById(R.id.parksList);
-        listView.setAdapter(Adapter);
         return rootList;
     }
 }
+

@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class CategoryAdapterF extends FragmentPagerAdapter {
-    private String tabTitels [] = new String [] {"Parks"};
+    private String tabTitels [] = new String [] {"Parks","Repeat Parks"};
 
     public CategoryAdapterF(FragmentManager fm, MainActivity mainActivity) {
         super(fm);
@@ -17,16 +17,20 @@ public class CategoryAdapterF extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-            return new CityParksF();
-    }
+            if (position == 0){
+                return new CityParksF();
+            }else
+                return new BlankFragment();
+            }
+
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return super.getPageTitle(position);
+        return tabTitels[position];
     }
 
     @Override
     public int getCount() {
-        return 1;
+        return 2;
     }
 }
