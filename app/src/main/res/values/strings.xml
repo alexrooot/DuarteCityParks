@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">DuarteCityParks\n\n</string>
-    <string name="Name_Aloysia_Moore_Park">Aloysia Moore Park\n\n</string>
-    <string name="Name_Beardslee_park">Beardslee Park\n\n</string>
-    <string name="Name_Duarte_park">Duarte Park\n\n</string>
-    <string name="Name_Sports_park">Sports Park\n\n</string>
-    <string name="Name_Duarte_Skate_park">Duarte Skate Park\n\n</string>
-    <string name="Name_Encanto_park">Encanto Park\n\n</string>
+    <string name="app_name">DuarteCityParks\n</string>
+    <string name="Name_Aloysia_Moore_Park">Aloysia Moore Park\n</string>
+    <string name="Name_Beardslee_park">Beardslee Park\n</string>
+    <string name="Name_Duarte_park">Duarte Park\n</string>
+    <string name="Name_duarte_sports_park">Sports Park\n</string>
+    <string name="Name_Duarte_Skate_park">Duarte Skate Park\n</string>
+    <string name="Name_Encanto_park">Encanto Park\n</string>
     <string name="Name_Encanto_Park_Nature_Walk_park">Encanto Park Nature Walk\n</string>
-    <string name="Name_Lena_Valenzuela_Park_park">Lena Valenzuela Park\n\n</string>
-    <string name="Name_Hacienda_Park">Hacienda Park\n\n</string>
-    <string name="Name_Northview_Park_Park">Northview Park\n\n</string>
-    <string name="Name_Otis_Gordon_Sports_Park_Park">Otis Gordon Sports Park\n\n</string>
-    <string name="Name_Royal_Oaks_Park_Park">Royal Oaks Park\n\n\n</string>
-    <string name="Name_Royal_Oaks_Park_Extension_Park">Royal Oaks Park Extension\n\n</string>
-    <string name="Name_Orange_Blossom_Park_Park">Orange Blossom Park\n\n</string>
+    <string name="Name_Lena_Valenzuela_Park_park">Lena Valenzuela Park\n</string>
+    <string name="Name_Hacienda_Park">Hacienda Park\n</string>
+    <string name="Name_Northview_Park_Park">Northview Park\n</string>
+    <string name="Name_Otis_Gordon_Sports_Park_Park">Otis Gordon Sports Park\n</string>
+    <string name="Name_Royal_Oaks_Park_Park">Royal Oaks Park\n</string>
+    <string name="Name_Royal_Oaks_Park_Extension_Park">Royal Oaks Park Extension\n</string>
+    <string name="Name_Orange_Blossom_Park_Park">Orange Blossom Park\n</string>
 
     <string name="Benefits_Aloysia_Moore_Park">Outdoor fitness gym\nPicnic and barbecue area\nNEW! Playground equipment
     </string>
@@ -21,7 +21,7 @@
         </string>
     <string name="Benefits_Duarte_park">Multi-purpose \n
     </string>
-    <string name="Benefits_Sports_park_park">Lighted tennis courts\nSoftball fields\nSkate park\nBasketball courts\nFutsal Courts\n
+    <string name="Benefits_duarte_sports_park_park">Lighted tennis courts\nSoftball fields\nSkate park\nBasketball courts\nFutsal Courts\n
     </string>
     <string name="Benefits_Duarte_Skate_park">The Duarte Skate Park offers
         300 linear feet of steel railfor
@@ -53,9 +53,9 @@
 
 
     <string name="Address_Aloysia_Moore_Park">1100 Duarte Road\nDuarte, CA 91010</string>
-    <string name="Address_Benefits_Beardslee_park">2000 Buena Vista Street\nDuarte, CA 91010</string>
+    <string name="Address_Beardslee_park">2000 Buena Vista Street\nDuarte, CA 91010</string>
     <string name="Address_Duarte_park">1344 Bloomdale Street\nDuarte, CA 91010</string>
-    <string name="Address_Sport_park">1401 Central Avenue\nDuarte, CA 91010</string>
+    <string name="Address_duarte_sport_park">1401 Central Avenue\nDuarte, CA 91010</string>
     <string name="Address_Duarte_Skate_park">1401 Central Avenue\nDuarte, CA 91010</string>
     <string name="Address_Encanto_park">751 Encanto Parkway\nDuarte, CA 91010</string>
     <string name="Address_Encanto_Park_Nature_Walk_park">Across from 11-acre Encanto Park located in the City of Duarte.\nDuarte, CA 91010</string>
