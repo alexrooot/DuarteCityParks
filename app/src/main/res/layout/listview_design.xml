@@ -1,48 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/parkImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@mipmap/royal_oaks_park_extension" />
         <TextView
             android:id="@+id/title_of_park"
+            android:alpha="0.7"
+            android:background="@android:drawable/alert_light_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:fontFamily="monospace"
             android:textStyle="italic"
-            android:textSize="32sp"
+            android:textSize="14sp"
             android:text="Name of park"/>
         <TextView
             android:id="@+id/park_benefits"
+            android:alpha="0.7"
+            android:background="@android:drawable/alert_light_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/title_of_park"
-            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/park_address"
             android:fontFamily="monospace"
             android:textStyle="italic"
-            android:textSize="22sp"
+            android:textSize="14sp"
             android:text="Kids play area"
             />
         <TextView
             android:id="@+id/park_address"
+            android:alpha="0.7"
+            android:background="@android:drawable/alert_light_frame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/park_benefits"
-            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title_of_park"
             android:fontFamily="monospace"
             android:textStyle="italic"
-            android:textSize="22sp"
+            android:textSize="14sp"
             android:text="111 Hacienda Park"
             />
-        <ImageView
-            android:id="@+id/parkImageView"
-            android:scaleType="fitCenter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/park_address"/>
+
+
     </RelativeLayout>
 
-</ScrollView>
+</LinearLayout>
