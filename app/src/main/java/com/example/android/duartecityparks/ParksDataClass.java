@@ -12,7 +12,7 @@ public class ParksDataClass {
     private String mBenefits;
     private String mAddress;
 
-    public ParksDataClass(int Image, String NameOfPark, String Benefits,String Address){
+    public ParksDataClass(int Image, String NameOfPark, String Benefits, String Address){
         mImage = Image;
         mNameOfPark = NameOfPark;
         mBenefits = Benefits;

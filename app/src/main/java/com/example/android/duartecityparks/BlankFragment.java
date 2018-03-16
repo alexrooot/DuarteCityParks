@@ -29,9 +29,9 @@ public class BlankFragment extends Fragment {
         final ArrayList<ParksDataClass> parkInfo = new ArrayList<ParksDataClass>();
         parkInfo.add(new
                 ParksDataClass(R.drawable.hacienda_park,
-                getString(R.string.Hacienda_Park_Name),
-                getString(R.string.Hacienda_Park_Benefits),
-                getString(R.string.Hacienda_Park_Address)));
+                getString(R.string.Name_Hacienda_Park),
+                getString(R.string.Benefits_Hacienda_Park),
+                getString(R.string.Address_Hacienda_Park)));
         return rootList;
     }
 }

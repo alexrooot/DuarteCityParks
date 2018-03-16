@@ -1,11 +1,122 @@
 <resources>
-    <string name="app_name">DuarteCityParks</string>
-    <string name="Hacienda_Park_Name">Hacienda Park</string>
-    <string name="Hacienda_Park_Benefits">Picnic and barbecue area
-        Playground equipment</string>
-    <string name="Hacienda_Park_Address">2695 Hacienda Drive
+    <string name="app_name">DuarteCityParks\n\n\n</string>
+    <string name="Name_Aloysia_Moore_Park">Aloysia Moore Park\n\n\n</string>
+    <string name="Name_Beardslee_park">Beardslee Park\n\n\n</string>
+    <string name="Name_Duarte_park">Duarte Park\n\n\n</string>
+    <string name="Name_Sports_park">Sports Park\n\n\n</string>
+    <string name="Name_Duarte_Skate_park">Duarte Skate Park\n\n\n</string>
+    <string name="Name_Encanto_park">Encanto Park\n\n\n</string>
+    <string name="Name_Encanto_Park_Nature_Walk_park">Encanto Park Nature Walk\n\n\n</string>
+    <string name="Name_Lena_Valenzuela_Park_park">Lena Valenzuela Park\n\n\n</string>
+    <string name="Name_Hacienda_Park">Hacienda Park\n\n\n</string>
+    <string name="Name_Northview_Park_Park">Northview Park\n\n\n</string>
+    <string name="Name_Otis_Gordon_Sports_Park_Park">Otis Gordon Sports Park\n\n\n</string>
+    <string name="Name_Royal_Oaks_Park_Park">Royal Oaks Park\n\n\n</string>
+    <string name="Name_Royal_Oaks_Park_Extension_Park">Royal Oaks Park Extension\n\n\n</string>
+    <string name="Name_Orange_Blossom_Park_Park">Orange Blossom Park\n\n\n</string>
+
+    <string name="Benefits_Aloysia_Moore_Park">Outdoor fitness gym\n
+                                                Picnic and barbecue area\n
+                                                NEW! Playground equipment
+    </string>
+    <string name="Benefits_Beardslee_park">Picnic area\n
+                                            Barbecue pits\n
+                                            Playground equipment\n
+                                            Restrooms\n
+                                            Soccer field\n
+                                            Amphitheater\n\n
+        </string>
+    <string name="Benefits_Duarte_park">Multi-purpose \n
+        \n
+    </string>
+    <string name="Benefits_Sports_park_park">Lighted tennis courts\n
+                                            Softball fields\n
+                                            Skate park\n
+                                            Basketball courts\n
+                                            Futsal Courts\n
+                                                    \n
+    </string>
+    <string name="Benefits_Duarte_Skate_park">The Duarte Skate Park offers
+        300 linear feet of steel railfor
+        sliding and 200 linear feetof grind edges that mimic urban
+        elements. Other features include a 7-foot long spine and
+        rollover combo and 48-inch high stairs with rail. The park
+        features two bowls, 6-feet deep and 8-feet deep, the latter
+        featuring one-foot of vert at the top. A unique aspect of the
+        park is the 6-inch wide metal grind edge on the boxes.\n\n
+    </string>
+    <string name="Benefits_Encanto_park">Rent a Gazebo Picnic Shelter\n
+                                        Restrooms\n
+                                        Multipurpose field\n
+                                        Picnic area with shelters and barbecues\n
+                                        Playground equipment\n
+                                        Tennis court\n
+                                        Basketball courts\n
+                                        Sand volleyball courts\n
+                                        Nature Trail\n\n
+    </string>
+    <string name="Benefits_Encanto_Park_Nature_Walk_park">River Overlook\n
+                                        Trashcans\n
+                                        Restrooms (across the street)\n\n
+    </string>
+    <string name="Benefits_Hacienda_Park">Picnic and barbecue area\n
+                                        Playground equipment\n\n
+    </string>
+    <string name="Benefits_Lena_Valenzuela_Park_park">Picnic and barbecue area\n
+                                                    Playground equipment\n\n
+    </string>
+    <string name="Benefits_Northview_Park_Park">Multipurpose field\n
+                                                Jogging patht\n\n
+    </string>
+    <string name="Benefits_Otis_Gordon_Sports_Park_Park">Picnic and barbecue area\n
+                                                Playground equipment\n
+                                                Lighted softball fields\n
+                                                Restrooms\n\n
+    </string>
+    <string name="Benefits_Royal_Oaks_Park_Park">Rent a Gazebo Picnic Shelter\n
+                                                Recreation building\n
+                                                Restrooms\n
+                                                Playground equipment\n
+                                                Picnic and barbecue area\n
+                                                Lighted tennis and basketball courts\n
+                                                Grass Volleyball courts\n\n
+    </string>
+    <string name="Benefits_Royal_Oaks_Park_Extension_Park">Rent a Gazebo Picnic Shelter\n
+                                                        Open Space\n
+                                                        BBQ\n\n
+    </string>
+    <string name="Benefits_Orange_Blossom_Park_Park">Playground equipment\n\n
+    </string>
+
+
+    <string name="Address_Aloysia_Moore_Park">1100 Duarte Road\n
+Duarte, CA 91010</string>
+    <string name="Address_Benefits_Beardslee_park">2000 Buena Vista Street\n
+Duarte, CA 91010</string>
+    <string name="Address_Duarte_park">1344 Bloomdale Street\n
+Duarte, CA 91010</string>
+    <string name="Address_Sport_park">1401 Central Avenue\n
+Duarte, CA 91010</string>
+    <string name="Address_Duarte_Skate_park">1401 Central Avenue\n
+Duarte, CA 91010</string>
+    <string name="Address_Encanto_park">751 Encanto Parkway\n
+Duarte, CA 91010</string>
+    <string name="Address_Encanto_Park_Nature_Walk_park">Across from 11-acre Encanto Park located in the City of Duarte.\n
+Duarte, CA 91010</string>
+    <string name="Address_Hacienda_Park">2695 Hacienda Drive\n
+Duarte, CA 91010</string>
+    <string name="Address_Lena_Valenzuela_Park">2120 Mountain Avenue\n
+Duarte, CA 91010</string>
+    <string name="Address_Northview_Park">1433 Highland Avenue\n
+Duarte, CA 91010</string>
+    <string name="Address_Otis_Gordon_Sports_Park_Park">2351 Central Avenue\n
+Duarte, CA 91010</string>
+    <string name="Address_Royal_Oaks_Park">2627 Royal Oaks Drive\n
+Duarte, CA 91010</string>
+    <string name="Address_Royal_Oaks_Extenstion_Park">2701 Royal Oaks Drive\n
+Duarte, CA 91010</string>
+    <string name="Address_Orange_Blossom_Park">Corner of Oak Avenue and Third Street\n
 Duarte, CA 91010</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

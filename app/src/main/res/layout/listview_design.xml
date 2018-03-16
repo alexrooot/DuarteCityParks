@@ -39,7 +39,6 @@
             />
         <ImageView
             android:id="@+id/parkImageView"
-            android:src="@drawable/hacienda_park"
             android:scaleType="fitCenter"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

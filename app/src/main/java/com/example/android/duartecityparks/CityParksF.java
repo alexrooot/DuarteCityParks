@@ -29,9 +29,15 @@ public class CityParksF extends Fragment{
         final ArrayList<ParksDataClass> parkInfo = new ArrayList<ParksDataClass>();
         parkInfo.add(new
                 ParksDataClass(R.drawable.hacienda_park,
-                getString(R.string.Hacienda_Park_Name),
-                getString(R.string.Hacienda_Park_Benefits),
-                getString(R.string.Hacienda_Park_Address)));
+                getString(R.string.Name_Hacienda_Park),
+                getString(R.string.Benefits_Hacienda_Park),
+                getString(R.string.Address_Hacienda_Park)));
+
+        parkInfo.add(new
+                ParksDataClass(R.drawable.aloysia_moore_park,
+                getString(R.string.Name_Aloysia_Moore_Park),
+                getString(R.string.Benefits_Aloysia_Moore_Park),
+                getString(R.string.Address_Aloysia_Moore_Park)));
 
         ParksDataListViewAdapter Adapter = new ParksDataListViewAdapter(getActivity(), parkInfo);
         ListView listView = (ListView) rootList.findViewById(R.id.parksList);
