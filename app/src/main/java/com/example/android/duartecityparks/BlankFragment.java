@@ -28,7 +28,7 @@ public class BlankFragment extends Fragment {
         View rootList = inflater.inflate(R.layout.listview_xml, container, false);
         final ArrayList<ParksDataClass> parkInfo = new ArrayList<ParksDataClass>();
         parkInfo.add(new
-                ParksDataClass(R.drawable.hacienda_park,
+                ParksDataClass(R.mipmap.encanto_nature_walk_park,
                 getString(R.string.Name_Hacienda_Park),
                 getString(R.string.Benefits_Hacienda_Park),
                 getString(R.string.Address_Hacienda_Park)));

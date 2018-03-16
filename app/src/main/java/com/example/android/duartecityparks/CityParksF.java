@@ -28,13 +28,13 @@ public class CityParksF extends Fragment{
         View rootList = inflater.inflate(R.layout.listview_xml, container, false);
         final ArrayList<ParksDataClass> parkInfo = new ArrayList<ParksDataClass>();
         parkInfo.add(new
-                ParksDataClass(R.drawable.hacienda_park,
+                ParksDataClass(R.mipmap.duarte_park,
                 getString(R.string.Name_Hacienda_Park),
                 getString(R.string.Benefits_Hacienda_Park),
                 getString(R.string.Address_Hacienda_Park)));
 
         parkInfo.add(new
-                ParksDataClass(R.drawable.aloysia_moore_park,
+                ParksDataClass(R.mipmap.aloysia_moore_park,
                 getString(R.string.Name_Aloysia_Moore_Park),
                 getString(R.string.Benefits_Aloysia_Moore_Park),
                 getString(R.string.Address_Aloysia_Moore_Park)));
